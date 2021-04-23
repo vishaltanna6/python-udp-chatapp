@@ -7,10 +7,10 @@ import os
 s = socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
 port = 30000
 
-my_ip = input("Enter you IP address")
+my_ip = input("Enter your IP address")
 s.bind( (my_ip,port) )
 dest_ip_name = []
-fip= input("\n\tEnter Friends IP address : ")
+fip= input("\n\tEnter your Friends IP address : ")
 dest_ip_name.append(fip)
 fname= input("\n\tEnter Friends Name: ")
 dest_ip_name.append(fname)
